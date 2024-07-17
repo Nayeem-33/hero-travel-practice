@@ -21,7 +21,6 @@ html{
 }
 body {
     font-family: "Mulish", sans-serif;
-    font-size: 3rem;
 }
 h1{
     font-size: 6.4rem;
@@ -200,7 +199,6 @@ button{
     gap: 3rem;
     padding: 3rem 0 5rem 0;
     font-size: 3rem;
-    color: var(--heading-color);
 }
 .footer-icon-div{
     display: flex;
