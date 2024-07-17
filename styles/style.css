@@ -404,6 +404,32 @@ button{
     height: 120;
 }
 
+
+.newsletter-form-div{
+    display: flex;
+    flex-direction: column;
+    gap: 1.7rem;
+}
+.newsletter-form-div input{
+
+}
+.newsletter-head{
+    font-weight: 800;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* FOOTER STYLES */
 .footer{
     background-color: var(--footer-color);
