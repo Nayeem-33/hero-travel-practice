@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
 
-/* color & sizing root */
+/* COLOR AND SIZING ROOTS */
 :root{
     --primary-color: rgba(255, 84, 0, 1);
     --secondary-color: rgba(255, 255, 255, 1);
@@ -13,7 +13,7 @@
 }
 
 
-/* font size & styles */
+/* FONT STYLES */
 body{
     font-family: "Mulish", sans-serif;
 }
@@ -57,7 +57,7 @@ button{
 }
 
 
-/* universal styles */
+/* UNIVERSAL STYLES */
 *{
     margin: 0;
     padding: 0;
@@ -67,10 +67,8 @@ button{
     width: var(--container-width);
     margin: 0 auto;
     padding: 1rem;
-    /* border: 2px red solid; */
 }
 .logo{
-    /* border: 2px solid blue; */
     display: flex;
     gap: 10px;
     align-items: center;
@@ -80,13 +78,13 @@ button{
     color: var(--primary-color);
 }
 
-/* navbar styles  */
+
+/* NAVBAR STYLES  */
 .navbar-div{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 2rem 0;
-
 }
 .home{
     color: var(--primary-color);
@@ -103,11 +101,6 @@ div>ul{
 
 
 
-
-
-
-
-
 /* FOOTER STYLES */
 .footer{
     background-color: var(--footer-color);
@@ -118,11 +111,8 @@ div>ul{
 .footer-div{
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
     margin-top: .5rem;
-    border: 2px solid rgb(233, 236, 8);
-
 }
 .footer-text{
     text-align: center;
@@ -149,7 +139,6 @@ div>ul{
 }
 .copyright{
     padding-top: 5rem;
-
 }
 
 
