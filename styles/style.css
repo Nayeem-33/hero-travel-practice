@@ -177,6 +177,75 @@ button{
     padding-left: 3rem;
 }
 
+/* Choose Your Destination (cyd) Styles */
+.cyd-main-div{
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4.8rem;
+}
+.cyd-text-div{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.4rem;
+}
+.cyd-text{
+    width: 64rem;
+}
+.destination-names{
+    color: var(--secondary-color);
+}
+.image-div{
+    height: 30rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 1.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cyd-image-div-rows{
+    display: flex;
+    gap: 2.4rem;
+    margin-bottom: 2.4rem;
+}
+.row-1-image-maldives{
+    background-image: linear-gradient(180deg, var(--heading-color) -20%, transparent 100%), url('../assets/Maldivs.png');
+    width: 50%;
+}
+.row-1-image-indonesia{
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.137)), url('../assets/Indonedia.png');
+    width: 50%;
+}
+.row-1-image-srilanka{
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.137)), url('../assets/Srilanka.png');
+    width: 35%;
+}
+.row-1-image-north-america{
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.137)), url('../assets/North\ America.png');
+    width: 40%;
+}
+.row-1-image-kashmir{
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.137)), url('../assets/Kashmir.png');
+    width: 25%;
+}
+.row-1-image-bangladesh{
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.137)), url('../assets/Bangladesh.png');
+    width: 60%;
+}
+.row-1-image-greenland{
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.137)), url('../assets/Greenland.png');
+    width: 40%;
+}
+
+
+
+
+
+
 /* FOOTER STYLES */
 .footer{
     background-color: var(--footer-color);
