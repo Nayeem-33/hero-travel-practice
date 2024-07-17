@@ -246,9 +246,6 @@ button{
 /* Why Choose Us Styles */
 .wcu-main-div{
     margin-top: 7.6rem;
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* gap: 4.8rem; */
 }
 .wcu-text-div{
     /* border: 2px solid red; */
@@ -277,9 +274,8 @@ button{
     flex-direction: column;
     gap: 2.8rem;
     border-radius: 1.6rem;
-    padding: 3rem;
+    padding: 4rem;
     width: calc((100% - 2.4rem) / 2);
-    height: 28rem;
 }
 .hotel{
     background-color: rgba(251, 181, 99, 0.05);
@@ -424,5 +420,13 @@ button{
     .cyd-text{
         width: 100%;
     }
-
+    .wcu-main-div{
+        margin-top: 2.5rem;
+    }
+    .wcu-card-div-r1, .wcu-card-div-r1{
+        flex-direction: column;
+    }
+    .card-div{
+        width: 100%;
+    }
 }
