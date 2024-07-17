@@ -71,6 +71,7 @@ button{
 .container{
     width: var(--container-width);
     margin: 0 auto;
+    max-width: 1440px;
 }
 .logo{
     display: flex;
@@ -292,13 +293,15 @@ button{
 
 
 /* Deals and Discounts */
+.dnd-main-div{
+    margin-top: 10rem;
+}
 .dnd-text-div{
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 2.4rem;
-    margin-top: 10rem;
     margin-bottom: 4.8rem;
 }
 .icon-color{
@@ -349,6 +352,58 @@ button{
     width: 60%;
 }
 
+/* Simple Perfect Place styles */
+.spp-video-div{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.video-div{
+    border-radius: 1.6rem;
+}
+.spp-main-div{
+    margin-top: 10rem;
+    display: flex;
+    gap: 5rem;
+}
+.spp-text-div{
+    width: calc(100% - 30% - 5rem );
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.spp-text-div ul{
+    color: var(--heading-color);
+    padding-left: 3rem;
+}
+
+
+/* NEWSLETTER */
+.newsletter-div{
+    margin-top: 10rem;
+    display: flex;
+    gap: 5rem;
+}
+.newsletter-image-div{
+    background-image: url(../assets/Newsletter\ Image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 422px;
+    border-radius: 1.6rem;
+}
+.ticket-div{
+    background-color: var(--primary-color);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 324;
+    height: 120;
+}
+
 /* FOOTER STYLES */
 .footer{
     background-color: var(--footer-color);
@@ -389,8 +444,6 @@ button{
 .copyright{
     padding-top: 5rem;
 }
-
-
 
 
 @media screen and (max-width:576px) {
@@ -449,7 +502,9 @@ button{
     .hero-text{
         width: 90%;
     }
-    .hero-input, .hero-select, .find-now-form>.btn-primary{
+    .hero-input, 
+    .hero-select, 
+    .find-now-form>.btn-primary{
         width: 95%;
     }
     .hero-div{
@@ -459,7 +514,7 @@ button{
 
     /* our popular tours */
     .opt-main-div{
-        margin-top: 5rem;
+        margin-top: 3rem;
         flex-direction: column;
         /* gap: 5rem; */
     }
@@ -471,16 +526,19 @@ button{
     .image-div{
         width: 100%;
     }
+    .cyd-main-div, 
+    .wcu-main-div, 
+    .dnd-main-div{
+        margin-top: 3rem;
+    }
     .cyd-image-div-rows{
         flex-direction: column;
     }
     .cyd-text{
         width: 100%;
     }
-    .wcu-main-div{
-        margin-top: 2.5rem;
-    }
-    .wcu-card-div-r1, .wcu-card-div-r1{
+    .wcu-card-div-r1, 
+    .wcu-card-div-r1{
         flex-direction: column;
     }
     .card-div{
@@ -492,4 +550,17 @@ button{
     .dnd-offer-div-2{
         flex-direction: column-reverse;
     }
+
+
+    /* SSP */
+    .spp-main-div{
+        margin-top: 2rem;
+        flex-direction: column;
+    }
+    .spp-text-div{
+        width: 100%;
+        padding: 1rem;
+    }
+
+
 }
