@@ -44,6 +44,12 @@ h5{
 p{
     font-size: 1.6rem;
     line-height: 2.6rem;
+    color: var(--text-secondary-color);
+}
+li{
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    color: var(--text-secondary-color);
 }
 .logo{
     font-size: 3.6rem;
@@ -63,7 +69,6 @@ button{
 .container{
     width: var(--container-width);
     margin: 0 auto;
-    padding: 1rem;
 }
 .logo{
     display: flex;
@@ -82,7 +87,10 @@ button{
     height: 5.2rem;
     border-radius: .8rem;
 }
-
+.fluid{
+    max-width: 100%;
+    height: auto;
+}
 
 /* NAVBAR STYLES  */
 .navbar-div{
@@ -96,7 +104,7 @@ button{
     color: var(--primary-color);
     font-weight: 700;
 }
-div>ul{
+.nav-link>ul{
     list-style: none;
     display: flex;
     gap: 3rem;
@@ -151,6 +159,22 @@ div>ul{
 }
 .hero-select:focus{
     outline: none;
+}
+
+/* Our Popular Tours (opt) */
+.opt-main-div{
+    margin-top: 10rem;
+    display: flex;
+    gap: 5rem;
+}
+.opt-text-div{
+    width: calc(100% - 30% - 5rem );
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.opt-text-div>ul{
+    padding-left: 3rem;
 }
 
 /* FOOTER STYLES */
