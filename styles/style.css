@@ -15,7 +15,6 @@
 
 
 /* FONT STYLES */
-
 html{
     font-size: 62.5%;
 }
@@ -95,6 +94,7 @@ button{
     height: auto;
 }
 
+
 /* NAVBAR STYLES  */
 .navbar-div{
     display: flex;
@@ -166,6 +166,7 @@ button{
     outline: none;
 }
 
+
 /* Our Popular Tours (opt) */
 .opt-main-div{
     margin-top: 10rem;
@@ -181,6 +182,7 @@ button{
 .opt-text-div>ul{
     padding-left: 3rem;
 }
+
 
 /* Choose Your Destination (cyd) Styles */
 .cyd-main-div{
@@ -246,13 +248,12 @@ button{
     width: 40%;
 }
 
+
 /* Why Choose Us Styles */
 .wcu-main-div{
     margin-top: 7.6rem;
 }
 .wcu-text-div{
-    /* border: 2px solid red; */
-
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -352,10 +353,10 @@ button{
     width: 60%;
 }
 
+
 /* Simple Perfect Place styles */
 .spp-video-div{
     display: flex;
-    /* justify-content: center; */
     align-items: center;
 }
 .video-div{
@@ -384,7 +385,7 @@ button{
     display: flex;
     justify-content: space-between;
     gap: 5rem;
-    border: 2px solid gold;
+    margin-bottom: 10rem;
 }
 .newsletter-image-div{
     background-image: url(../assets/Newsletter\ Image.png);
@@ -394,10 +395,7 @@ button{
     width: 50%;
     height: 422px;
     border-radius: 1.6rem;
-    position: relative; mmm
-    /* display: flex; */
-    /* align-items: center; */
-    /* justify-content: center; */
+    position: relative;
 }
 .ticket-link{
     font-size: 2.4rem;
@@ -424,8 +422,6 @@ button{
     transform-origin: left bottom;
     transform: rotate(-25deg);
 }
-
-
 .newsletter-form-div{
     border: 1px solid var(--primary-color);
     border-radius: 1.6rem;
@@ -450,18 +446,6 @@ button{
 .newsletter-head{
     font-weight: 800;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* FOOTER STYLES */
@@ -506,6 +490,8 @@ button{
 }
 
 
+
+
 @media screen and (max-width:576px) {
 
     :root{
@@ -546,31 +532,31 @@ button{
     }
 
     /* HERO RES STYLE */
-    .find-now-form{
-        flex-direction: column;
-        width: 100%;
-    }
-    .hero-text
-    .newsletter-image-div
-    .newsletter-form-div{
-        width: 100%;
-    }
-    .hero-input, 
-    .hero-select, 
-    .find-now-form>.btn-primary{
-        width: 95%;
-    }
     .hero-div{
         height: 58rem;
     }
-    
-
-    /* our popular tours */
-    .opt-main-div{
-        flex-direction: column;
-        /* gap: 5rem; */
+ 
+    /* Shared Responsive Style */
+    .hero-text,
+    .find-now-form{
+        width: 95%;
     }
-    .opt-text-div{
+
+    .newsletter-image-div,
+    .newsletter-form-div,
+    .hero-input, 
+    .hero-select, 
+    .find-now-form>.btn-primary,
+    .opt-text-div,
+    .image-div,
+    .cyd-text,
+    .card-div,
+    .spp-text-div{
+        width: 100%;
+    }
+
+    .opt-text-div,
+    .spp-text-div{
         padding: 1rem;
     }
 
@@ -582,12 +568,9 @@ button{
     .spp-main-div{
         margin-top: 3rem;
     }
-    .opt-text-div,
-    .image-div,
-    .cyd-text,
-    .card-div{
-        width: 100%;
-    }
+
+    .find-now-form,
+    .opt-main-div,
     .wcu-card-div-r1, 
     .wcu-card-div-r1,
     .opt-main-div,
@@ -596,20 +579,9 @@ button{
     .spp-main-div{
         flex-direction: column;
     }
-    {
-        flex-direction: column-reverse;
-    }
 
-
-    /* SSP */
-    .spp-text-div{
-        width: 100%;
-        padding: 1rem;
-    }
     .dnd-offer-div-2,
     .newsletter-div{
     flex-direction: column-reverse;
     }
-
-
 }
