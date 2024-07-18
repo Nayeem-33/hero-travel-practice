@@ -171,6 +171,7 @@ button{
 .opt-main-div{
     margin-top: 10rem;
     display: flex;
+    align-items: center;
     gap: 5rem;
 }
 .opt-text-div{
@@ -358,6 +359,7 @@ button{
 .spp-video-div{
     display: flex;
     align-items: center;
+    width: 50%;
 }
 .video-div{
     border-radius: 1.6rem;
@@ -490,7 +492,72 @@ button{
 }
 
 
+@media screen and (max-width:1024px) {
 
+    :root{
+        --container-width: 95%;
+    }
+    html{
+        font-size: 62.5%;
+    }
+    /* navbar style */
+    .nav-link{
+        display: none;
+    }
+    .hamburgar{
+        display: block;
+        font-size: 3.5rem;
+    }
+
+    /* HERO RES STYLE */
+    .hero-div{
+        height: 58rem;
+    }
+    .spp-video-div{
+        width: 50%;
+    }
+    /* Shared Responsive Style */
+    .hero-text,
+    .find-now-form{
+        width: 95%;
+    }
+
+    .newsletter-image-div,
+    .newsletter-form-div,
+    .hero-input, 
+    .hero-select, 
+    .find-now-form>.btn-primary,
+    .opt-text-div,
+    .image-div,
+    .cyd-text,
+    .card-div{
+        width: 100%;
+    }
+
+    .opt-text-div,
+    .spp-text-div{
+        padding: 1rem;
+    }
+
+    .opt-main-div,
+    .cyd-main-div, 
+    .wcu-main-div, 
+    .dnd-main-div,
+    .newsletter-div,
+    .spp-main-div{
+        margin-top: 3rem;
+    }
+
+    .find-now-form,
+    .offer-div{
+        flex-direction: column;
+    }
+
+    .dnd-offer-div-2,
+    .newsletter-div{
+    flex-direction: column-reverse;
+    }
+}
 
 @media screen and (max-width:576px) {
 
@@ -571,9 +638,7 @@ button{
 
     .find-now-form,
     .opt-main-div,
-    .wcu-card-div-r1, 
     .wcu-card-div-r1,
-    .opt-main-div,
     .cyd-image-div-rows,
     .offer-div,
     .spp-main-div{
